@@ -12,8 +12,8 @@ How it works:
 * Evaluates performance using precision, recall, and confusion matrix analysis to handle risk classification trade-offs.
 
 Results:
-* Test Accuracy:** ~77% with the tuned XGBoost model.
-* Key Takeaway:** Tree-based models like XGBoost captured non-linear market velocity and volume shifts significantly better than linear baselines, giving a cleaner separation of risk regimes.
+* Test Accuracy: ~77% with the tuned XGBoost model.
+* Key Takeaway: Tree-based models like XGBoost captured non-linear market velocity and volume shifts significantly better than linear baselines, giving a cleaner separation of risk regimes.
 
 How to run it:
 ```bash
