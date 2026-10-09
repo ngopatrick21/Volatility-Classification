@@ -8,7 +8,7 @@ You feed in historical price data, and the model processes technical indicators 
 How it works:
 * Pulls historical pricing and volume data directly using `yfinance`.
 * Engineers 5 core features, including rolling volatility, normalized volume trends, and moving-average slope indicators.
-* Trains and benchmarks both a Logistic Regression baseline and an XGBoost classifier[cite: 1].
+* Trains and benchmarks both a Logistic Regression baseline and an XGBoost classifier.
 * Evaluates performance using precision, recall, and confusion matrix analysis to handle risk classification trade-offs.
 
 Results:
